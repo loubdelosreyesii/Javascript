@@ -1,28 +1,7 @@
-//Math Methods and Properties
+//Write Javascript Code that will return a random letter from your name.
 
-console.log(Math.PI);
+const myName = "LouB.delosReyesII";
 
-console.log(Math.trunc(Math.PI));
+console.log(myName.charAt(Math.floor(Math.random() * myName.length)));
 
-console.log(Math.round(3.5));
-
-// round up
-console.log(Math.ceil(Math.PI));
-
-// round down
-console.log(Math.floor(Math.PI))
-
-console.log(Math.pow(2,4));
-
-console.log(Math.min(1,2,3,1,0.2));
-
-console.log(Math.max(1,11,3,1,0.2));
-
-// From 0 to 1
-console.log(Math.random());
-
-console.log(Math.floor(Math.random()*10+1));
-console.log(Math.floor(Math.random()*10+1));
-console.log(Math.floor(Math.random()*10+1));
-console.log(Math.floor(Math.random()*10+1));
-console.log(Math.floor(Math.random()*10+1));
+console.log(myName.charAt(Math.floor(Math.random() * myName.length)));
