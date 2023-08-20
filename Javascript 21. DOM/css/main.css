@@ -7,18 +7,41 @@
 html,body{
     width:100%;
     font-size: 16px;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
 }
 
-main{
-    height: 100vh;
+.container{
+    margin:auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    align-content: center;
+    width:80%;
+    height:100%;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 10px 100px;
 }
 
 h1{
     font-size: 250%;
+}
+nav{
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.view{
+    height: 200px;
+    width: 200px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-size: 3rem;
 }
